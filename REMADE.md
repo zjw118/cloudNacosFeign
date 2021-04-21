@@ -1,0 +1,3 @@
+搭建cloudNacosFeign，使用Feign来调用各个微服务
+
+这里注意ServiceFeignClient的value属性必须得是cloudNacos也就是要熔断的那个服务的name否则无效
